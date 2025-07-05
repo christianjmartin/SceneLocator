@@ -1,0 +1,32 @@
+/* MAIN PAGE STYLING */
+
+.main-page-outer {
+    display: flex;
+}
+
+.main-page-inner {
+    display: flex;
+    flex-direction: column;
+    padding-inline-end: 10px;
+}
+/* QUIZ STYLING */
+.quiz-button {
+    background-color: #60CBF0;
+    height: 40px;
+    width: 70px;
+    padding: 10px;
+    margin-inline-end: 10px;
+    margin-block-end: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.quiz-button:hover {
+    background-color: #4BA9CA;
+    cursor: pointer;
+}
+
+.quiz-button-container {
+    display: flex;
+    align-items: left;
+}
